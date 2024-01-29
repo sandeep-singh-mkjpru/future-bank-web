@@ -6,6 +6,8 @@
 body{
     position: relative;
     margin: 0;
+    /* max-width: 600px; */
+    
     
 
     
@@ -42,7 +44,7 @@ body{
 
 
 header{
-    /* max-width: 100%; */
+    
     position: absolute;
     
     padding-left: 10%;
@@ -469,6 +471,8 @@ margin-left: 100px;
 
     header{
         max-width: 600px;
+        position: sticky;
+    top: 0;
 
     }
 
@@ -497,6 +501,7 @@ margin-left: 100px;
     
     .wrapper-1{
         padding-top: 120px;
+        margin-bottom: 0;
     }
     .wrapper-1-a {
         
@@ -505,6 +510,38 @@ margin-left: 100px;
       align-items: center;
       flex-direction: column;
     }
+
+   .event-heading{
+    text-align: center;
+    align-items: center;
+   }
+
+
+   .wrapper-2-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .meet-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .meet-left-content{
+    align-items: center;
+    text-align: center;
+    margin-right: 10%;
+   }
+
+   .meet-left-content ul li{
+    list-style: none;
+    text-align: center;
+   }
 
     .wrapper-event-img{
         width: 70%;
